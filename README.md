@@ -105,9 +105,9 @@ Para ello primeramente debemos implementar la función getZeroes. Esta
 función necesita devolvernos todas las casillas del tablero que están vacías. Es
 decir su tipo es:
 
-	   ```haskell
-            getZeroes :: Grid -> [(Int, Int)]
-	   ```
+```haskell
+    getZeroes :: Grid -> [(Int, Int)]
+```
 Podemos probar los siguientes casos con la función que implementemos:
 	   ```
         *H2048> getZeroes [ [0,0,0,0], [0,0,0,0], [0,0,0,0], [0,0,0,0] ]
