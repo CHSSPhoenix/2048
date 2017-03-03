@@ -10,7 +10,7 @@ El tablero principal se puede ver en la figura 1. Es un tablero de 4 x 4 casilla
 de las cuales o esta vacía o contiene un número que es una potencia de 2(desde 2^1 (2) hasta 2^11 (2048).). 
 El objetivo del juego es acumular los valores hasta llegar al 2048.
 
-Figura 1 AQUI
+![Figura 1](https://cloud.githubusercontent.com/assets/27013/23563683/196e8f8c-001e-11e7-92c4-f2fc7743250b.png)
 
 El tablero inicialmente tiene dos números aleatoriamente colocados en las casillas. 
 El resto de las casillas están vacías. Se pueden hace cuatro movimientos:
@@ -19,7 +19,7 @@ provoca que todas las casillas con números se muevan en el sentido marcado.
 Ver por ejemplo el movimiento hacia abajo desde el tablero de la figura 1 lleva
 al tablero que se muestra en la figura 2.
 
-Figura 2 AQUI
+![]Figura 2](https://cloud.githubusercontent.com/assets/27013/23563748/66998c1c-001e-11e7-9b1f-53059452d54c.png)
 
 Al recorrerse las casillas en la dirección indicada, cuando se encuentran dos
 números adyacentes iguales, se los suma. Esto explica:
@@ -46,7 +46,7 @@ El juego en versión consola fue implementado en Haskell por [Gregor Ulm el 2014
 La figura 3 muestra la interacción con el juego en consola. Se usan las
 teclas WASD para subir, izquierda, bajar y derecha respectivamente.
 
-Figura 3 AQUI
+![Figura 3](https://cloud.githubusercontent.com/assets/27013/23563765/742a7eae-001e-11e7-94e9-45f8cfa93dea.png)
 
 La versión original fue modificada con fines educativos por miembros de la
 Comunidad Haskell San Simón.
