@@ -108,7 +108,9 @@ decir su tipo es:
 ```haskell
     getZeroes :: Grid -> [(Int, Int)]
 ```
+
 Podemos probar los siguientes casos con la función que implementemos:
+
  ```
     *H2048> getZeroes [ [0,0,0,0], [0,0,0,0], [0,0,0,0], [0,0,0,0] ]
     [(0,0),(0,1),(0,2),(0,3),(1,0),(1,1),(1,2),(1,3),(2,0),(2,1),(2,2),
@@ -191,7 +193,7 @@ Como calentamiento para esta fase de la implementación podemos empezar
 escribiendo el código de la función check2048:
 
 ```haskell
-check2048 :: Grid -> Bool
+   check2048 :: Grid -> Bool
 ```
 
 Es decir toma un tablero como entrada y produce un valor booleano que indica
