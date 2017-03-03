@@ -19,7 +19,7 @@ provoca que todas las casillas con números se muevan en el sentido marcado.
 Ver por ejemplo el movimiento hacia abajo desde el tablero de la figura 1 lleva
 al tablero que se muestra en la figura 2.
 
-![]Figura 2](https://cloud.githubusercontent.com/assets/27013/23563748/66998c1c-001e-11e7-9b1f-53059452d54c.png)
+![Figura 2](https://cloud.githubusercontent.com/assets/27013/23563748/66998c1c-001e-11e7-9b1f-53059452d54c.png)
 
 Al recorrerse las casillas en la dirección indicada, cuando se encuentran dos
 números adyacentes iguales, se los suma. Esto explica:
